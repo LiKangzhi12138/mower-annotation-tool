@@ -1,0 +1,6 @@
+version: 1
+classes:
+  - {id: 0, name: stone, zh: 石头, color: '#ef5350'}
+  - {id: 1, name: tree, zh: 树木, color: '#43a047'}
+  - {id: 2, name: person, zh: 人, color: '#1e88e5'}
+  - {id: 3, name: other_roadblock, zh: 其它路障, color: '#ffb300'}

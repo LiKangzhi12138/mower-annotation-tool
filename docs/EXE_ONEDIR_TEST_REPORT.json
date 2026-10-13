@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "bundled classes.yaml and fixed class mapping",
+    "GUI draw, reclass, save/next, reopen, negative, unreviewed check",
+    "two Worker Packages and Master merge",
+    "YOLO export and negative empty labels; unreviewed excluded"
+  ],
+  "class_config_hash": "82cae6248f857b53d93fb8998add67904c7857cda6b8dbdec57c137fe55a581e"
+}

@@ -1,0 +1,133 @@
+# ============================================================
+# Mower Annotation Tool (Python / PySide6)
+# Keep source code, scripts, configuration, docs and tests.
+# Do NOT commit raw images, annotations, datasets or build files.
+# ============================================================
+
+# Python compiled files and development caches
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.pytest_tmp/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python / Conda environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-bld/
+mower-annotator/
+
+# PyInstaller and distributables (keep *.spec and build_exe.ps1)
+/build/
+/dist/
+*.exe
+*.msi
+*.whl
+
+# IDE, OS and temporary files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+settings.local.json
+credentials*.json
+secrets*.json
+
+# Local scanning / task allocation reports (project root)
+/audit/
+/reports/
+/batch_*/
+/script-backup-*/
+/mower-annotation-distribution/
+
+# Runtime data, label projects and YOLO dataset output (project root)
+/data/
+/datasets/
+/dataset_*/
+/samples/
+/images/
+/labels/
+/annotations/
+/annotation_output/
+/annotation_outputs/
+/outputs/
+/output/
+/exports/
+/worker_packages/
+/worker_*/
+/master/
+/master_dataset/
+/backups/
+/logs/
+/tmp/
+/temp/
+
+# Nested generated annotation/export directories
+**/annotation_output/
+**/annotation_outputs/
+**/worker_packages/
+**/dataset_v*/
+**/backups/
+
+# Original images, video, lidar data, trained weights and archives
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.tif
+*.tiff
+*.heic
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mcap
+*.bag
+*.db3
+*.npz
+*.npy
+*.pt
+*.pth
+*.onnx
+*.zip
+*.7z
+*.rar
+
+# Small UI artwork and controlled documentation/test fixtures may be committed
+!/assets/**/*.png
+!/app/assets/**/*.png
+!/app/resources/**/*.png
+!/docs/**/*.png
+!/tests/fixtures/**/*.png
+!/tests/fixtures/**/*.jpg
+!/tests/fixtures/**/*.jpeg
